@@ -32,7 +32,7 @@
 }
 
 .carousel-item {
-    padding: 40px 200px;
+    padding: 40px 200px !important;
 }
 
 #accordion {
