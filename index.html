@@ -27,17 +27,8 @@
         <h3>Efectos</h3>
         <div>Los efectos añaden soporte para animar colores y transiciones de clases, además de proporcionar varias facilidades adicionales. Además, se encuentra disponible un conjunto completo de efectos personalizados para usar al mostrar y ocultar elementos o simplemente para agregar algo de atractivo visual.</div>
       </div>
-      <a href="#seccion1"><button type="button" class="btn btn-primary boton">Siguiente</button></a>
-    </div>  
-  </div>
-
-  <!-- SECCIÓN TIEMPO-->
-  <div class="divFullHeight" id="seccion1">
-    <div class="divInterior" style="top: 35vh;">
-      <h1>Antes de nada</h1>
-      <p>Dónde vives? Vamos a ver el tiempo para no encontrarnos ninguna sorpresa. Espero que haga buen tiempo.</p>
       <a href="#seccion2"><button type="button" class="btn btn-primary boton">Siguiente</button></a>
-    </div> 
+    </div>  
   </div>
 
   <!-- SECCIÓN INTERACCIONES-->
@@ -144,11 +135,13 @@
       <div class="col-6 col2FullHeight2">
         <a class="col-6" href="#seccion8"><button type="button" class="btn btn-primary boton">Siguiente</button></a>
       </div>
-      <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+      <div id="carouselExampleControls" class="carousel carousel-dark slide" data-bs-ride="carousel">
         <!-- SECCIÓN SLIDER-->
         <div class="carousel-inner">
           <!-- ITEM-->
           <div class="carousel-item active">
+            <h3>Acordeón</h3>
+            <p>Muestra paneles de contenido plegables para presentar información en un espacio limitado.</p>
             <div id="accordion2">
               <h3>Interacciones</h3>
               <div>Las interacciones agregan comportamientos básicos basados ​​en el mouse a cualquier elemento. Puede crear listas ordenables, elementos redimensionables, comportamientos de arrastrar y soltar y más con solo unas pocas líneas de código. Las interacciones también son excelentes bloques de construcción para aplicaciones y widgets más complejos.</div>
@@ -160,6 +153,8 @@
           </div>
           <!-- ITEM-->
           <div class="carousel-item">
+            <h3>Autocompletado</h3>
+            <p>Permite a los usuarios buscar y seleccionar rápidamente de una lista de valores completada previamente a medida que escriben, aprovechando la búsqueda y el filtrado.</p>
             <div class="ui-widget">
               <label for="tags">Tags: </label>
               <input id="tags">
@@ -167,55 +162,43 @@
           </div>
           <!-- ITEM-->
           <div class="carousel-item">
+            <h3>Selector de fechas</h3>
+            <p>Seleccione una fecha de un calendario emergente o en línea</p>
             <p>Date: <input type="text" id="datepicker"></p>
           </div>
           <!-- ITEM-->
           <div class="carousel-item">
-            <div id="dialog" title="Basic dialog">
-              <p>This is the default dialog which is useful for displaying information. The dialog window can be moved, resized and closed with the &apos;x&apos; icon.</p>
+            <h3>Diálogo</h3>
+            <p>Contenido abierto en una superposición interactiva.</p>
+            <div id="dialog" title="Mensaje">
+              <p>Hola! Esperamos que disfrutes de tu estancia en nuestra web.</p>
             </div>
           </div>
           <!-- ITEM-->
           <div class="carousel-item">
+            <h3>Menú</h3>
+            <p>Menú personalizable con interacciones de mouse y teclado para la navegación.</p>
             <ul id="menu">
-              <li class="ui-state-disabled"><div>Toys (n/a)</div></li>
-              <li><div>Books</div></li>
-              <li><div>Clothing</div></li>
-              <li><div>Electronics</div>
+              <li><div>Interacciones</div></li>
                 <ul>
-                  <li class="ui-state-disabled"><div>Home Entertainment</div></li>
-                  <li><div>Car Hifi</div></li>
-                  <li><div>Utilities</div></li>
+                  <li><div>Draggable & Droppable</div></li>
+                  <li><div>Resizable</div></li>
+                  <li><div>Selectable & Sortable</div></li>
                 </ul>
-              </li>
-              <li><div>Movies</div></li>
-              <li><div>Music</div>
-                <ul>
-                  <li><div>Rock</div>
-                    <ul>
-                      <li><div>Alternative</div></li>
-                      <li><div>Classic</div></li>
-                    </ul>
-                  </li>
-                  <li><div>Jazz</div>
-                    <ul>
-                      <li><div>Freejazz</div></li>
-                      <li><div>Big Band</div></li>
-                      <li><div>Modern</div></li>
-                    </ul>
-                  </li>
-                  <li><div>Pop</div></li>
-                </ul>
-              </li>
-              <li class="ui-state-disabled"><div>Specials (n/a)</div></li>
+              <li><div>Widgets</div></li>
+              <li><div>Efectos</div>
             </ul>
           </div>
           <!-- ITEM-->
           <div class="carousel-item">
+            <h3>Barra de progreso</h3>
+            <p>Muestra el estado de un proceso determinado o indeterminado.</p>
             <div id="progressbar"></div>
           </div>
           <!-- ITEM-->
           <div class="carousel-item">
+            <h3>Tabs</h3>
+            <p>Un área de contenido única con varios paneles, cada uno asociado con un encabezado en una lista.</p>
             <div id="tabs">
               <ul>
                 <li><a href="#tabs-1">Interacciones</a></li>
@@ -235,6 +218,8 @@
           </div>
           <!-- ITEM-->
           <div class="carousel-item">
+            <h3>Tooltip</h3>
+            <p>Información sobre herramientas personalizable y temática, que reemplaza la información sobre herramientas nativa.</p>
             <p>can be attached to any element. When you hover    <a href="#" title="That&apos;s what this widget is">Tooltips</a> 
           </div>
         </div>
@@ -268,9 +253,9 @@
         <div>
           <div class="toggler">
             <div id="effect" class="ui-widget-content ui-corner-all">
-              <h3 class="ui-widget-header ui-corner-all">Show</h3>
+              <h3 class="ui-widget-header ui-corner-all">Aparecer</h3>
               <p>
-                Etiam libero neque, luctus a, eleifend nec, semper at, lorem. Sed pede. Nulla lorem metus, adipiscing ut, luctus sed, hendrerit vitae, mi.
+                Eh! Mira cómo aparezco.
               </p>
             </div>
           </div>
@@ -297,12 +282,12 @@
       </div>
       <div class="col-6 col2FullHeight2">
         <a class="col-6" href="#seccion10"><button type="button" class="btn btn-primary boton">Siguiente</button></a>
-        <div>
+        <div style="text-align: left; margin-top: 65px;">
           <div class="toggler">
-            <div id="effect" class="ui-widget-content ui-corner-all">
-              <h3 class="ui-widget-header ui-corner-all">Hide</h3>
+            <div id="effect2" class="ui-widget-content ui-corner-all">
+              <h3 class="ui-widget-header ui-corner-all">Desvanecer</h3>
               <p>
-                Etiam libero neque, luctus a, eleifend nec, semper at, lorem. Sed pede. Nulla lorem metus, adipiscing ut, luctus sed, hendrerit vitae, mi.
+                Eh! Y mira cómo desaparezco.
               </p>
             </div>
           </div>
@@ -324,7 +309,7 @@
             <option value="slide">Slide</option>
           </select>
            
-          <button id="button" class="ui-state-default ui-corner-all">Run Effect</button>
+          <button id="button2" class="ui-state-default ui-corner-all">Run Effect</button>
            
         </div>
       </div>
@@ -332,7 +317,7 @@
     </div> 
   </div>
 
-  <!-- SECCIÓN EFECTOS-->
+  <!-- SECCIÓN API-->
   <div class="divFullHeight" id="seccion10">
     <div class="divInterior" style="top: 35vh;">
       <h1>API</h1>
@@ -486,19 +471,21 @@
     } else if ( selectedEffect === "size" ) {
       options = { to: { width: 200, height: 60 } };
     } 
-    $( "#effect" ).hide( selectedEffect, options, 1000, callback );
+    $( "#effect2" ).hide( selectedEffect, options, 1000, callback );
     };
  
     
   function callback() {
     setTimeout(function() {
-      $( "#effect" ).removeAttr( "style" ).hide().fadeIn();
+      $( "#effect2" ).removeAttr( "style" ).hide().fadeIn();
       }, 1000 );
     };
 
-  $( "#button" ).on( "click", function() {
+  $( "#button2" ).on( "click", function() {
     runEffect();
   });
+
+  
 
 
   </script>

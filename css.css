@@ -31,6 +31,10 @@
     position: relative;
 }
 
+.carousel-item {
+    padding: 40px 200px;
+}
+
 #accordion {
     text-align: left;
     position: relative;
@@ -108,7 +112,9 @@
     font-size: 20px;
 }
 
-.ui-menu { width: 150px; margin-left: 300px;}
+.ui-menu { 
+    width: 150px;
+}
 
 
 
@@ -116,6 +122,10 @@
 #button { padding: .5em 1em; text-decoration: none; }
 #effect { width: 240px; height: 170px; padding: 0.4em; position: relative; }
 #effect h3 { margin: 0; padding: 0.4em; text-align: center; }
+
+#button2 { padding: .5em 1em; text-decoration: none; }
+#effect2 { width: 240px; height: 170px; padding: 0.4em; position: relative; }
+#effect2 h3 { margin: 0; padding: 0.4em; text-align: center; }
 
 
 #tabs2 {
