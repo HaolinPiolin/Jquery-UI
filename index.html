@@ -332,9 +332,13 @@
       <div class="col-6">
         <h1 >Pokedex</h1>
         <p>Introduce el nombre de un <a href="#" title="No conoces ningún Pokemon? No te preocupes, prueba con estos : Mewtwo, Charizard, Pikachu, Rayquaza">Pokemon</a> y la <a href="#" title="La Pokédex, en el mundo ficticio de Pokémon, es una enciclopedia electrónica portátil que los entrenadores Pokémon llevan consigo para registrar automáticamente las fichas de todas las diversas especies Pokémon vistas y capturadas durante su viaje como entrenadores.​​ ">pokedex</a> te propocionará información acerca de él.</p>
-        <form action="" onsubmit="searchPokemon(event)">
-          <input type="text" name="pokemon" autocomplete="off">
-        </form>
+        
+          <input id="searchPokemon" type="text" name="pokemon" autocomplete="off" class="form-control">
+          <button type="submit" id="boton" class="btn btn-primary">Buscar</button>
+          <div id="info"></div>
+          <div>
+            <ul id="ul"></ul>
+          </div>
         <h4 style="margin-top: 50px;">Quieres una experiencia completa?</h4>
         <p>Disfruta de la música de pokemon mientras usas nuestra Pokedex.</p>
         <audio controls loop>
@@ -351,7 +355,7 @@
         </ul>
         <div id="tabs2-1">
           <div data-poke-card class="poke-card">
-            <h5 data-poke-name>Pokedex</h5>
+            <h5 data-poke-name class="nombre">Pokedex</h5>
             <div data-poke-img-container class="img-container">
                 <img data-poke-img class="poke-img" src="./poke-shadow.png"/>
             </div>
