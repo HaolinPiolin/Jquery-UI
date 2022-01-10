@@ -195,6 +195,10 @@ input {
     text-align: left;
 }
 
+.form-control {
+    margin: 20px 0 20px 0;
+}
+
 
   @keyframes fadeIn {
     0% {opacity:0;}
